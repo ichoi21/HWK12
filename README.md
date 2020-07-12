@@ -37,6 +37,23 @@ THEN I understand the codebase
 
 ---
 
+### How to install
+
+Perform the following:
+
+```bash
+npm i
+npm i bcryptjs express express-session mysql2 passport passport-local sequelize sequelize-cli  (only if necessary)
+```
+
+on config.json - change password to user mysql password in quotes
+
+```bash
+node server.js
+```
+
+on browser - view https://http://localhost:8080
+
 ## Submission on BCS
 
 - Tutorial provided on Google Doc
